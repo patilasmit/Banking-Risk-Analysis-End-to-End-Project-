@@ -1,0 +1,31 @@
+CREATE OR REPLACE TABLE Clients (
+    "Client ID" varchar(20),
+    "Name" STRING,
+    "Age" INT,
+    "Location ID" INT,
+    "Joined Bank" DATE,
+    "Banking Contact" STRING,
+    "Nationality" STRING,
+    "Occupation" STRING,
+    "Fee Structure" STRING,
+    "Loyalty Classification" STRING,
+    "Estimated Income" NUMBER(15,2),
+    "Superannuation Savings" NUMBER(15,2),
+    "Amount of Credit Cards" INT,
+    "Credit Card Balance" NUMBER(15,2),
+    "Bank Loans" NUMBER(15,2),
+    "Bank Deposits" NUMBER(15,2),
+    "Checking Accounts" NUMBER(15,2),
+    "Saving Accounts" NUMBER(15,2),
+    "Foreign Currency Account" NUMBER(15,2),
+    "Business Lending" NUMBER(15,2),
+    "Properties Owned" INT,
+    "Risk Weighting" NUMBER(5,2),
+    "BRId" INT,
+    "GenderId" INT,
+    "IAId" INT
+);
+
+SELECT * FROM CLIENTS;
+
+SELECT * FROM CLUSTERED_BANKING_CUSTOMERS;      ---This Table Will Show After Clustering Done In Pyhton It Is All About Optional Thing
